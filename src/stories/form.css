@@ -1,30 +1,36 @@
 /* Estilo para o contêiner */
 div {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 20px auto;
+    width: 300px;
+    text-align: center;
 }
 
 /* Estilo para o label */
 label {
-    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
 }
 
 /* Estilo para o input */
 input[type="text"] {
-    padding: 5px;
-    width: 200px;
+    padding: 8px;
+    width: calc(100% - 16px);
     margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 /* Estilo para a mensagem de erro */
 label[data-testid="error_tip"] {
     color: red;
     font-style: italic;
+    display: block;
+    margin-bottom: 10px;
 }
 
 /* Estilo para o botão */
 button {
-    padding: 8px 16px;
+    padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
     border: none;
