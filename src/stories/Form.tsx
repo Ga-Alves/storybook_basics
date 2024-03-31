@@ -1,4 +1,5 @@
 import { useState } from "react"
+import './form.css'
 
 export default function MyForm() {
 
@@ -17,7 +18,7 @@ export default function MyForm() {
             setIsError(true); 
         }
     }
-
+    
     return(
         <div>
             <label htmlFor="someImportantData">Some Required Data</label>

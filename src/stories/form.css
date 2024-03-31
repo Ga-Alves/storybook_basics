@@ -1,0 +1,37 @@
+/* Estilo para o contêiner */
+div {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Estilo para o label */
+label {
+    font-weight: bold;
+}
+
+/* Estilo para o input */
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para a mensagem de erro */
+label[data-testid="error_tip"] {
+    color: red;
+    font-style: italic;
+}
+
+/* Estilo para o botão */
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo para o botão quando hover */
+button:hover {
+    background-color: #0056b3;
+}
